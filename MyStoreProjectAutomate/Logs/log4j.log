@@ -1,0 +1,4 @@
+2020-08-11 20:05:52 INFO  Log:14 - =====================================loginTest TEST START=========================================
+2020-08-11 20:05:52 INFO  Log:29 - user is going to click on signin
+2020-08-11 20:05:54 INFO  Log:29 - enter username and password to signin
+2020-08-11 20:05:57 INFO  Log:29 -  verify user is able login
