@@ -37,7 +37,7 @@ public class Alerts {
 
 	@Test(priority=1)
 
-	
+	// This is to check the simple Alert
 	public void simpleAlert() throws Exception
 	{
 		driver.findElement(By.id("simpleAlert")).click();
