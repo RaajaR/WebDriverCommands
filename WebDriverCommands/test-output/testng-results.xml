@@ -1,25 +1,305 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="22" passed="22" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-08-17T20:05:59 IST" name="Default suite" finished-at="2020-08-17T20:06:22 IST" duration-ms="22468">
+  <suite started-at="2020-08-18T11:36:55 IST" name="Suite1" finished-at="2020-08-18T11:44:07 IST" duration-ms="431855">
     <groups>
     </groups>
-    <test started-at="2020-08-17T20:05:59 IST" name="Default test" finished-at="2020-08-17T20:06:22 IST" duration-ms="22468">
-      <class name="AutoITTool.UploadTheFile">
-        <test-method is-config="true" signature="setup()[pri:0, instance:AutoITTool.UploadTheFile@3c22fc4c]" started-at="2020-08-17T20:05:59 IST" name="setup" finished-at="2020-08-17T20:06:11 IST" duration-ms="11909" status="PASS">
+    <test started-at="2020-08-18T11:36:55 IST" name="Test1" finished-at="2020-08-18T11:44:07 IST" duration-ms="431855">
+      <class name="ActionsClass.Tooltip_ATI">
+        <test-method is-config="true" signature="setup()[pri:0, instance:ActionsClass.Tooltip_ATI@635eaaf1]" started-at="2020-08-18T11:43:27 IST" name="setup" finished-at="2020-08-18T11:43:40 IST" duration-ms="13007" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="AutoItTool()[pri:0, instance:AutoITTool.UploadTheFile@3c22fc4c]" started-at="2020-08-17T20:06:11 IST" name="AutoItTool" finished-at="2020-08-17T20:06:18 IST" duration-ms="6269" status="PASS">
+        <test-method signature="tooltip()[pri:0, instance:ActionsClass.Tooltip_ATI@635eaaf1]" started-at="2020-08-18T11:43:40 IST" name="tooltip" finished-at="2020-08-18T11:43:40 IST" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tooltip -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:ActionsClass.Tooltip_ATI@635eaaf1]" started-at="2020-08-18T11:43:40 IST" name="teardown" finished-at="2020-08-18T11:43:43 IST" duration-ms="2384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- ActionsClass.Tooltip_ATI -->
+      <class name="ActionsClass.MouseHover">
+        <test-method is-config="true" signature="setup()[pri:0, instance:ActionsClass.MouseHover@30ee2816]" started-at="2020-08-18T11:42:53 IST" name="setup" finished-at="2020-08-18T11:43:03 IST" duration-ms="9621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="mousehover()[pri:0, instance:ActionsClass.MouseHover@30ee2816]" started-at="2020-08-18T11:43:03 IST" name="mousehover" finished-at="2020-08-18T11:43:10 IST" duration-ms="6946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mousehover -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:ActionsClass.MouseHover@30ee2816]" started-at="2020-08-18T11:43:10 IST" name="teardown" finished-at="2020-08-18T11:43:12 IST" duration-ms="2139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- ActionsClass.MouseHover -->
+      <class name="ActionsClass.Alerts">
+        <test-method is-config="true" signature="setup()[pri:0, instance:ActionsClass.Alerts@6a28ffa4]" started-at="2020-08-18T11:37:16 IST" name="setup" finished-at="2020-08-18T11:37:34 IST" duration-ms="17994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="simpleAlert()[pri:1, instance:ActionsClass.Alerts@6a28ffa4]" started-at="2020-08-18T11:37:34 IST" name="simpleAlert" finished-at="2020-08-18T11:37:39 IST" duration-ms="4247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- simpleAlert -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:ActionsClass.Alerts@6a28ffa4]" started-at="2020-08-18T11:37:39 IST" name="teardown" finished-at="2020-08-18T11:37:47 IST" duration-ms="7978" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:ActionsClass.Alerts@6a28ffa4]" started-at="2020-08-18T11:37:47 IST" name="setup" finished-at="2020-08-18T11:38:04 IST" duration-ms="16993" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ConfirmationAlert()[pri:2, instance:ActionsClass.Alerts@6a28ffa4]" started-at="2020-08-18T11:38:04 IST" name="ConfirmationAlert" finished-at="2020-08-18T11:38:08 IST" duration-ms="4223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfirmationAlert -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:ActionsClass.Alerts@6a28ffa4]" started-at="2020-08-18T11:38:08 IST" name="teardown" finished-at="2020-08-18T11:38:16 IST" duration-ms="7777" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:ActionsClass.Alerts@6a28ffa4]" started-at="2020-08-18T11:38:16 IST" name="setup" finished-at="2020-08-18T11:38:34 IST" duration-ms="18702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="promptAlert()[pri:4, instance:ActionsClass.Alerts@6a28ffa4]" started-at="2020-08-18T11:38:34 IST" name="promptAlert" finished-at="2020-08-18T11:38:41 IST" duration-ms="6140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- promptAlert -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:ActionsClass.Alerts@6a28ffa4]" started-at="2020-08-18T11:38:41 IST" name="teardown" finished-at="2020-08-18T11:38:50 IST" duration-ms="9008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- ActionsClass.Alerts -->
+      <class name="ActionsClass.DoubleClick">
+        <test-method is-config="true" signature="setup()[pri:0, instance:ActionsClass.DoubleClick@1700915]" started-at="2020-08-18T11:40:53 IST" name="setup" finished-at="2020-08-18T11:41:05 IST" duration-ms="11877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="doubleclick()[pri:0, instance:ActionsClass.DoubleClick@1700915]" started-at="2020-08-18T11:41:05 IST" name="doubleclick" finished-at="2020-08-18T11:41:10 IST" duration-ms="4410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doubleclick -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:ActionsClass.DoubleClick@1700915]" started-at="2020-08-18T11:41:10 IST" name="teardown" finished-at="2020-08-18T11:41:12 IST" duration-ms="2253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:ActionsClass.DoubleClick@1700915]" started-at="2020-08-18T11:41:12 IST" name="setup" finished-at="2020-08-18T11:41:24 IST" duration-ms="12031" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="rightclick()[pri:0, instance:ActionsClass.DoubleClick@1700915]" started-at="2020-08-18T11:41:24 IST" name="rightclick" finished-at="2020-08-18T11:41:26 IST" duration-ms="2378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rightclick -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:ActionsClass.DoubleClick@1700915]" started-at="2020-08-18T11:41:26 IST" name="teardown" finished-at="2020-08-18T11:41:28 IST" duration-ms="2214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- ActionsClass.DoubleClick -->
+      <class name="AutoITTool.AutoIT_Tool">
+        <test-method is-config="true" signature="setup()[pri:0, instance:AutoITTool.AutoIT_Tool@1ddf84b8]" started-at="2020-08-18T11:38:50 IST" name="setup" finished-at="2020-08-18T11:39:02 IST" duration-ms="11957" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="autoittool()[pri:0, instance:AutoITTool.AutoIT_Tool@1ddf84b8]" started-at="2020-08-18T11:39:02 IST" name="autoittool" finished-at="2020-08-18T11:39:06 IST" duration-ms="4004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- autoittool -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:AutoITTool.AutoIT_Tool@1ddf84b8]" started-at="2020-08-18T11:39:06 IST" name="teardown" finished-at="2020-08-18T11:39:10 IST" duration-ms="4111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:AutoITTool.AutoIT_Tool@1ddf84b8]" started-at="2020-08-18T11:39:10 IST" name="setup" finished-at="2020-08-18T11:39:20 IST" duration-ms="10295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="autoittool_otherway()[pri:0, instance:AutoITTool.AutoIT_Tool@1ddf84b8]" started-at="2020-08-18T11:39:20 IST" name="autoittool_otherway" finished-at="2020-08-18T11:39:25 IST" duration-ms="5302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- autoittool_otherway -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:AutoITTool.AutoIT_Tool@1ddf84b8]" started-at="2020-08-18T11:39:25 IST" name="teardown" finished-at="2020-08-18T11:39:29 IST" duration-ms="4229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- AutoITTool.AutoIT_Tool -->
+      <class name="ActionsClass.AutoITSuggestion">
+        <test-method is-config="true" signature="setup()[pri:0, instance:ActionsClass.AutoITSuggestion@48ae9b55]" started-at="2020-08-18T11:39:50 IST" name="setup" finished-at="2020-08-18T11:40:00 IST" duration-ms="9126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tooltip()[pri:0, instance:ActionsClass.AutoITSuggestion@48ae9b55]" started-at="2020-08-18T11:40:00 IST" name="tooltip" finished-at="2020-08-18T11:40:06 IST" duration-ms="6624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tooltip -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:ActionsClass.AutoITSuggestion@48ae9b55]" started-at="2020-08-18T11:40:06 IST" name="teardown" finished-at="2020-08-18T11:40:13 IST" duration-ms="6351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- ActionsClass.AutoITSuggestion -->
+      <class name="AutoITTool.UploadTheFile">
+        <test-method is-config="true" signature="setup()[pri:0, instance:AutoITTool.UploadTheFile@1139b2f3]" started-at="2020-08-18T11:40:13 IST" name="setup" finished-at="2020-08-18T11:40:24 IST" duration-ms="11813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="AutoItTool()[pri:0, instance:AutoITTool.UploadTheFile@1139b2f3]" started-at="2020-08-18T11:40:24 IST" name="AutoItTool" finished-at="2020-08-18T11:40:31 IST" duration-ms="6657" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AutoItTool -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:AutoITTool.UploadTheFile@3c22fc4c]" started-at="2020-08-17T20:06:18 IST" name="teardown" finished-at="2020-08-17T20:06:22 IST" duration-ms="4235" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:AutoITTool.UploadTheFile@1139b2f3]" started-at="2020-08-18T11:40:31 IST" name="teardown" finished-at="2020-08-18T11:40:35 IST" duration-ms="4367" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- AutoITTool.UploadTheFile -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="Commands.DropDrownList">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Commands.DropDrownList@7e0b85f9]" started-at="2020-08-18T11:39:29 IST" name="setup" finished-at="2020-08-18T11:39:39 IST" duration-ms="9418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="selctdropdown()[pri:0, instance:Commands.DropDrownList@7e0b85f9]" started-at="2020-08-18T11:39:39 IST" name="selctdropdown" finished-at="2020-08-18T11:39:48 IST" duration-ms="9297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selctdropdown -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Commands.DropDrownList@7e0b85f9]" started-at="2020-08-18T11:39:48 IST" name="teardown" finished-at="2020-08-18T11:39:50 IST" duration-ms="2256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Commands.DropDrownList -->
+      <class name="Commands.RadioButton_CheckBox">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Commands.RadioButton_CheckBox@9353778]" started-at="2020-08-18T11:41:28 IST" name="setup" finished-at="2020-08-18T11:41:38 IST" duration-ms="9166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="radiobutton()[pri:1, instance:Commands.RadioButton_CheckBox@9353778]" started-at="2020-08-18T11:41:38 IST" name="radiobutton" finished-at="2020-08-18T11:41:40 IST" duration-ms="2295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- radiobutton -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Commands.RadioButton_CheckBox@9353778]" started-at="2020-08-18T11:41:40 IST" name="teardown" finished-at="2020-08-18T11:41:40 IST" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Commands.RadioButton_CheckBox@9353778]" started-at="2020-08-18T11:41:40 IST" name="setup" finished-at="2020-08-18T11:41:49 IST" duration-ms="8880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkboxdynamically()[pri:2, instance:Commands.RadioButton_CheckBox@9353778]" started-at="2020-08-18T11:41:49 IST" name="checkboxdynamically" finished-at="2020-08-18T11:41:52 IST" duration-ms="3075" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkboxdynamically -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Commands.RadioButton_CheckBox@9353778]" started-at="2020-08-18T11:41:52 IST" name="teardown" finished-at="2020-08-18T11:41:52 IST" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:Commands.RadioButton_CheckBox@9353778]" started-at="2020-08-18T11:41:52 IST" name="setup" finished-at="2020-08-18T11:42:04 IST" duration-ms="11303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkboxnormalWay()[pri:3, instance:Commands.RadioButton_CheckBox@9353778]" started-at="2020-08-18T11:42:04 IST" name="checkboxnormalWay" finished-at="2020-08-18T11:42:06 IST" duration-ms="2142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkboxnormalWay -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Commands.RadioButton_CheckBox@9353778]" started-at="2020-08-18T11:42:06 IST" name="teardown" finished-at="2020-08-18T11:42:06 IST" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Commands.RadioButton_CheckBox -->
+      <class name="ActionsClass.MultiSelectAction">
+        <test-method is-config="true" signature="setup()[pri:0, instance:ActionsClass.MultiSelectAction@31d7b7bf]" started-at="2020-08-18T11:43:12 IST" name="setup" finished-at="2020-08-18T11:43:21 IST" duration-ms="8758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="multipleselection()[pri:0, instance:ActionsClass.MultiSelectAction@31d7b7bf]" started-at="2020-08-18T11:43:21 IST" name="multipleselection" finished-at="2020-08-18T11:43:25 IST" duration-ms="4497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multipleselection -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:ActionsClass.MultiSelectAction@31d7b7bf]" started-at="2020-08-18T11:43:25 IST" name="teardown" finished-at="2020-08-18T11:43:27 IST" duration-ms="2105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- ActionsClass.MultiSelectAction -->
+      <class name="Commands.DropDrownList_2ndWay">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Commands.DropDrownList_2ndWay@63355449]" started-at="2020-08-18T11:40:35 IST" name="setup" finished-at="2020-08-18T11:40:45 IST" duration-ms="9267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Multidropdown()[pri:0, instance:Commands.DropDrownList_2ndWay@63355449]" started-at="2020-08-18T11:40:45 IST" name="Multidropdown" finished-at="2020-08-18T11:40:51 IST" duration-ms="6490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Multidropdown -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Commands.DropDrownList_2ndWay@63355449]" started-at="2020-08-18T11:40:51 IST" name="teardown" finished-at="2020-08-18T11:40:53 IST" duration-ms="2181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Commands.DropDrownList_2ndWay -->
+      <class name="ActionsClass.DragAndDrop">
+        <test-method is-config="true" signature="setup()[pri:0, instance:ActionsClass.DragAndDrop@21de60b4]" started-at="2020-08-18T11:42:06 IST" name="setup" finished-at="2020-08-18T11:42:17 IST" duration-ms="10930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="draganddrop()[pri:0, instance:ActionsClass.DragAndDrop@21de60b4]" started-at="2020-08-18T11:42:17 IST" name="draganddrop" finished-at="2020-08-18T11:42:19 IST" duration-ms="2326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- draganddrop -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:ActionsClass.DragAndDrop@21de60b4]" started-at="2020-08-18T11:42:19 IST" name="teardown" finished-at="2020-08-18T11:42:21 IST" duration-ms="2160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:ActionsClass.DragAndDrop@21de60b4]" started-at="2020-08-18T11:42:21 IST" name="setup" finished-at="2020-08-18T11:42:31 IST" duration-ms="9949" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="draganddropby()[pri:0, instance:ActionsClass.DragAndDrop@21de60b4]" started-at="2020-08-18T11:42:31 IST" name="draganddropby" finished-at="2020-08-18T11:42:35 IST" duration-ms="3364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- draganddropby -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:ActionsClass.DragAndDrop@21de60b4]" started-at="2020-08-18T11:42:35 IST" name="teardown" finished-at="2020-08-18T11:42:37 IST" duration-ms="2196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- ActionsClass.DragAndDrop -->
+      <class name="Commands.BootStrapDropDown">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Commands.BootStrapDropDown@6580cfdd]" started-at="2020-08-18T11:36:55 IST" name="setup" finished-at="2020-08-18T11:37:06 IST" duration-ms="11003" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Bootstrapdropdown()[pri:0, instance:Commands.BootStrapDropDown@6580cfdd]" started-at="2020-08-18T11:37:06 IST" name="Bootstrapdropdown" finished-at="2020-08-18T11:37:10 IST" duration-ms="3942" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bootstrapdropdown -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Commands.BootStrapDropDown@6580cfdd]" started-at="2020-08-18T11:37:10 IST" name="teardown" finished-at="2020-08-18T11:37:16 IST" duration-ms="6273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Commands.BootStrapDropDown -->
+      <class name="ActionsClass.KeyboardOperations">
+        <test-method is-config="true" signature="setup()[pri:0, instance:ActionsClass.KeyboardOperations@c267ef4]" started-at="2020-08-18T11:42:37 IST" name="setup" finished-at="2020-08-18T11:42:46 IST" duration-ms="9129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="keyboardActions()[pri:0, instance:ActionsClass.KeyboardOperations@c267ef4]" started-at="2020-08-18T11:42:46 IST" name="keyboardActions" finished-at="2020-08-18T11:42:49 IST" duration-ms="3085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- keyboardActions -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:ActionsClass.KeyboardOperations@c267ef4]" started-at="2020-08-18T11:42:49 IST" name="teardown" finished-at="2020-08-18T11:42:53 IST" duration-ms="4083" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- ActionsClass.KeyboardOperations -->
+      <class name="ActionsClass.UploadTheFile">
+        <test-method is-config="true" signature="setup()[pri:0, instance:ActionsClass.UploadTheFile@5c30a9b0]" started-at="2020-08-18T11:43:43 IST" name="setup" finished-at="2020-08-18T11:43:55 IST" duration-ms="11922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="normalWay()[pri:0, instance:ActionsClass.UploadTheFile@5c30a9b0]" started-at="2020-08-18T11:43:55 IST" name="normalWay" finished-at="2020-08-18T11:44:03 IST" duration-ms="8333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- normalWay -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:ActionsClass.UploadTheFile@5c30a9b0]" started-at="2020-08-18T11:44:03 IST" name="teardown" finished-at="2020-08-18T11:44:07 IST" duration-ms="4178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- ActionsClass.UploadTheFile -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite1 -->
 </testng-results>
